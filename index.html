@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Routex</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+                <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/old.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-5 text-secondary m-0"><img src="img/logo.png" class="img-fluid" alt=""></h1>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active ">Home</a>
+                        <a href="countries.html" class="nav-item nav-link ">Visa</a>
+                        <div class="nav-item dropdown">
+                            <a href="404.html" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Services</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="404.html" class="dropdown-item">Touring across the globe 
+</a>
+                                <a href="404.html" class="dropdown-item">Packages </a>
+                                <a href="404.html" class="dropdown-item">Corporate event management</a>
+                                <a href="404.html" class="dropdown-item">Flights at zero service charge</a>
+                                <a href="404.html" class="dropdown-item">Hotels at zero service charge
+</a>
+                                <a href="404.html" class="dropdown-item">M.I.C.E</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="404.html" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Pages</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="404.html" class="dropdown-item">Feature</a>
+                                <a href="404.html" class="dropdown-item">Countries</a>
+                                <a href="404.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">Training</a>
+                            </div>
+                        </div>
+                        <a href="404.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+        <!-- copied -->
+
+        <section class="home" id="home" style="overflow-x: hidden;">
+            <img src="img/home1.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <!-- <span class="home__data-subtitle">One stop for all your travel needs</span> -->
+                    <h1 class="home__data-title">THE TOURING  <br> & <b>CONCIERGE <br> COMPANY </b></h1>
+                    <a href="#Contact_Us" class="button" style="border-radius: 50px;">Contact Us</a>
+
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__info" style="border-radius: 30px;margin-right: 23px;">
+                    <div>
+                        <span class="home__info-title">Our Brochure</span>
+                        <a href="pdf/brochure.pdf" class="button button--flex button--link home__info-button" download="routex">
+                            Download <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="img/logo2.png" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+        <!-- about us -->
+         <div class="container-fluid features overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">Discover Routex</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Explore the World with Routex</h1>
+                    <p class="mb-4">
+                        <strong><a href="#">ROUTEX</a></strong> is your premium concierge company, delivering unparalleled touring experiences across India and the globe. Our exceptional service has reflected in a remarkable <strong>97% customer retention rate</strong>.
+                    </p>
+                    <p class="mb-4">
+                        With our extensive network of local partners worldwide, you can be assured of a consistently satisfying travel experience. Think of us as your personal virtual travel desk at <strong>"ZERO COST"</strong> – we don't charge any service fees for booking flights or hotels but always secure the best deals available, often better than what you find online.
+                    </p>
+                    <p class="mb-4">
+                        Our esteemed clients include the <strong>Indian Indoor Cricket Team</strong>, <strong>Purplle</strong>, <strong>WOW Skincare</strong>, <strong>Maruti Suzuki</strong>, and Instagram influencer <strong>Sanyam Sharma</strong>. Join us and experience the Routex difference.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-6 mb-4">
+                        <img src="img/logo.png" class="" alt="Touring Experience" style="margin-top: 50px;">
+                    </div>
+                    <div class="col-lg-5 col-md-6 mb-4">
+                        <img src="img/about-3.jpg" class="img-fluid rounded shadow-sm" alt="Client Experience">
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--         about us end -->
+        
+        <!-- Countries We Offer Start -->
+        <div class="container-fluid country overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">COUNTRIES WE OFFER</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Immigration & visa services following Countries</h1>
+                    <p class="mb-0">Visa for 150 countries like Brazil, India, USA and Italy along
+                        with document processing
+                        and appointment booking
+                        with end to end coordination!</p>
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/brazil.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">Brazil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/india.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">india</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/usa.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">New York</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-4.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/italy.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4">Italy</a>
+                            </div>
+                        </div>
+
+                    
+                    
+                </div>
+                <div class="col-12 text-center">
+                    <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="countries.html">View More</a>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Countries We Offer End -->
+
+
+
+
+
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service overflow-hidden pt-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">Visa Categories</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Enabling Your Immigration Successfully</h1>
+                    <p class="mb-0">Our dedicated services streamline your immigration process, offering expert guidance and support at every step. From visa assistance to faster processing and direct interviews, we ensure a smooth and successful journey to your new destination.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">Job Visa</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">Job Visa</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">Work legally in a foreign country, offering new career opportunities and experiences. Take the next step in your professional journey.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="#">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">Business Visa</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">Business Visa</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">Visit foreign countries for professional purposes such as attending meetings, conferences, and negotiating contracts</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">Diplomatic Visa</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">Diplomatic Visa</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">Tailored for government officials and diplomats on official missions abroad, offering exclusive privileges and seamless processes.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-5.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">Students Visa</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">Students Visa</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">Study abroad at accredited institutions, opening doors to new knowledge and cultures. Start your educational journey with ease.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-6.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">Residence Visa</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">Residence Visa</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">Live in a foreign country long-term, providing the opportunity to build a new life abroad. Start your new chapter with ease.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-7.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0">Tourist Visa</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">Tourist Visa</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4">Sightseeing, vacationing, and experiencing different cultures. It’s your ticket to adventure and relaxation without the hassle.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+        <!-- Features Start -->
+        <div class="container-fluid features overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">Why Choose Us</h5>
+                    </div>
+                    <h1 class="display-5 mb-4">Offer Tailor Made Services That Our Client Requires</h1>
+                    <p class="mb-0">Routex, your trusted B2B travel companion. We specialize in visa, hotel, flight, and MICE services,
+                        catering to your corporate travel needs with precision. Beyond travel, we offer corporate gifting and
+                        personalized T-shirt solutions, elevating your brand presence. With a dedicated team committed to
+                        excellence, expect tailored services aligned with your business objectives. Join us in shaping
+                        unforgettable travel experiences and strengthening your brand identity. Let's embark on this
+                        journey together, where every detail is meticulously crafted to exceed your expectations</p>
+                </div>
+                <div class="row g-4 justify-content-center text-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-plane fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">FLIGHT</h5>
+                                <p class="mb-3">International and domestic flight booking services along with railway ticket reservations, including end-to-end support.
+                                    </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fab fa-cc-visa fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">Visa Assistance</h5>
+                                <p class="mb-3">visa for 150 countries along
+                                    with document processing
+                                    and appointment booking
+                                    with end to end coordination.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-business-time fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">
+                                    MICE & R&R Events</h5>
+                                <p class="mb-3">Skilled coordination for Meetings, Incentives, Conferences, Exhibitions, and corporate R&R.</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-car fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3">TRANSPORT SERVICE</h5>
+                                <p class="mb-3">Dependable transport for seamless corporate event and business trip arrangements, enhancing efficiency.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->    
+        
+        <!-- Counter Facts Start -->
+        <div class="container-fluid counter-facts py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-passport"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Visa Categories</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">31</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Regions Served</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">50</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Visa Process</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">4.9</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3>Success Rates</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">98</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter Facts End -->
+
+
+ <!-- form -->
+<section class="contact_section layout_padding" style="margin-top: 50px;" id="Contact_Us">
+    <div class="container">
+        <div class="heading_container">
+            <div class="counter-content">
+                <h3 style="padding-left: 100px;">Contact Us</h3>
+                <div class="d-flex align-items-center justify-content-center"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action='https://forms.zohopublic.com.au/pushkar1713/form/RoutexContactus/formperma/WOms7xBaRTjXcHFX13mYBipwOscZa7UvIsGt32C31wM/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                    <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                    <input type="hidden" name="zf_redirect_url" value="index.html"><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                    <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+                    <div>
+                        <input type="text" placeholder="First Name" style="color: black;" maxlength="255" name="Name_First" fieldType=7 />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Last Name" style="color: black;" maxlength="255" name="Name_Last" fieldType=7 />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Phone Number" style="color: black;" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
+                    </div>
+                    <div>
+                        <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Email" />
+                    </div>
+                    <div>
+                        <textarea name="MultiLine" maxlength="65535" placeholder="     Message" class="message-box" style="color: black;width: 100%;"></textarea>
+                    </div>
+                    <div class="d-flex ">
+                        <button type="submit" style="margin-bottom: 10px;background-color: #14505C; border-color: #14505C; border-radius: 20px;margin-left: 100px;margin-top: 0px;">
+                            SEND
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="image_container" style="width: 100%; height: 100%;">
+                    <a href="https://g.co/kgs/fKKNxtF" target="_blank">
+                        <img src="img/map2.png" alt="Contact Image" style="width: 150%; height: 83%; object-fit: cover;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- form end  -->
+  <!-- Footer Start -->
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-secondary mb-4">Contact Info</h4>
+                    <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 1st Floor, B Square, No.69, A, 60 Feet Rd, next to Sastry Memorial Hall, Sidhi Vinayaka Layout, Sanjayanagara, Bengaluru, Karnataka 560094</a>
+                    <a href="mailto:info@routex.in"><i class="fas fa-envelope me-2"></i> info@routex.in</a>
+                    <a href="tel:+919449489288"><i class="fas fa-phone me-2"></i>+91 94494 89288</a>
+                    <div class="d-flex align-items-center mt-3">
+                        <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                        <a class="btn mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-secondary mb-4">Customer Support</h4>
+                    <div class="mb-3">
+                        <h6 class="text-muted mb-0">24/7 Service:</h6>
+                        <p class="text-white mb-0">Always available</p>
+                    </div>
+                    <div class="mb-3">
+                        <h6 class="text-muted mb-0">Live Chat:</h6>
+                        <p class="text-white mb-0">Mon - Fri: 09.00 am to 06.00 pm</p>
+                    </div>
+                    <div class="mb-3">
+                        <h6 class="text-muted mb-0">Email Support:</h6>
+                        <p class="text-white mb-0">Response within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-secondary mb-4">Our Services</h4>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Touring Worldwide</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Packages</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Corporate event management</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Flights at zero service charge</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Hotels at zero service charge</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>M.I.C.E</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-secondary mb-4">Quick Links</h4>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Home</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>About Us</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Services</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Contact</a>
+                    <a href="#" class=""><i class="fas fa-angle-right me-2"></i>Blog</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Routex Limited</a>, All right reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+      <!-- ==============GOOGLE MAP=========== -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+
+    </body>
+
+</html>
